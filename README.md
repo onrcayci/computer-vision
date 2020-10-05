@@ -1,6 +1,6 @@
-# computer-vision
+# Computer Vision
 
-Computer Vision practice using OpenCV
+Computer Vision practice using OpenCV library for python.
 
 ## Image Processing Intro
 
