@@ -32,3 +32,5 @@ Google Colab is used to write the Jupyter Notebook, however it is possible to ru
 The contents of the images folder are assumed to be under the same directory as the Jupyter Notebook. Therefore, before running it locally, please remember to copy the contents of the images folder into the same directory as the Jupyter Notebook. Also, you should leave the folder `celebA_subset` as it is since there are 100 images in that folder. They are used as training images for eigenfaces and the notebook reads them from that folder.
 
 For PCA, eigenfaces and face detection using eigenfaces, I have implemented my own algorithm instead of using the ones from OpenCV. It is possible to use the methods from OpenCV which will work better.
+
+For Viola-Jones detection, the XML should be imported in order to use the OpenCV method.
